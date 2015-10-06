@@ -3,8 +3,8 @@
 int main()
 {
 	/* only by replacing missing condition in if statement 
-           marked by (...), bring output as "Hello world!" */ 
-	if (printf("hello ") == -1)
+ *            marked by (...), bring output as "Hello world!" */ 
+	if (fork())
 		printf("Hello ");
 	else
 		printf("world!\n");
