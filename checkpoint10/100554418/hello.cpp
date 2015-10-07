@@ -1,12 +1,7 @@
-#include <iostream>
-#include <unistd.h>
+Merge branch 'master' of https://github.com/arminms/CSCI-2000U
 
-int main()
-{
-        // only by replacing missing condition in if statement
-        // marked by (...), bring output as "Hello world!"
-	if (!(std::cout<<"Hello "))
-		std::cout << "Hello ";
-	else
-		std::cout << "world!\n";
-}
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
