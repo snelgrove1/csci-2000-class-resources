@@ -3,10 +3,8 @@
 int main()
 {
 	/* only by replacing missing condition in if statement 
-           marked by (...), bring output as "Hello world!" */ 
-	if (1
-	#define else if (1)
-	)
+           marked by (printf("Hello ") == false), bring output as "Hello world!" */ 
+	if (true)
 		printf("Hello ");
 	else
 		printf("world!\n");
