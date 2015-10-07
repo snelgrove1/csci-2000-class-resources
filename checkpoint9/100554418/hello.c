@@ -1,8 +1,13 @@
-Merge branch 'master' of https://github.com/arminms/CSCI-2000U
+#include <stdio.h>
 
-# Please enter a commit message to explain why this merge is necessary,
-# especially if it merges an updated upstream into a topic branch.
-#
-# Lines starting with '#' will be ignored, and an empty message aborts
-# the commit.
-"Austin Oligario"
+int main()
+{
+	/* only by replacing missing condition in if statement 
+ *            marked by (...), bring output as "Hello world!" */ 
+	if (!printf("Hello "))
+		printf("Hello ");
+	else
+		printf("world!\n");
+
+	return 0;
+}
